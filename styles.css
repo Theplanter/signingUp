@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --var-size: clamp(2rem,10vh,10rem);
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vh;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.left{
+
+    display: flex;
+    position: relative;
+    background-image: url('images/nate-rayfield-_WR6tUIAJe8-unsplash.jpg');
+    background-size: cover;
+    height: 100vh;
+      min-width: 430px;
+  max-height: 100vh;
+}
+.back{
+    position: absolute;
+}
+.front{
+    display: flex;
+    position: absolute;
+    background-color: rgba(0,26,37,50%);
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+}
+span{
+    font-size: var(--var-size);
+    color: aliceblue;
+    text-transform: uppercase;
+}
+#img-Back{
+    height: 100vh;
+    max-width: 430px;
+    width: 100%;
+}
+#img-Logo{
+    width: 80px;
+}

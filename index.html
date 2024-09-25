@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Home Page</title>
 </head>
 <body>
-    
+    <div class="left">
+            <div class="front">
+               
+                <img id="img-Logo" src="images/odin-lined.png" alt="">
+                <span>Odin</span>
+            </div>
+            
+    </div>
+
+    <div class="right">
+        <p>This is not a real online service! You know you need something <br>
+            like this in your life to help you realize your deepest dreams. <br>
+        Sign up <em>now </em>to get started.</p>
+        <p>You <em>know</em> you want to.</p><br><br>
+
+        <form action="#">
+            <p>Let's do this!</p>
+            <fieldset>
+                <label for="FName" >First Name</label>
+                <input id="FName" type="text" name="firstN">
+
+                <label for="LName" >Last Name</label>
+                <input id="LName" type="text" name="lastN">
+            </fieldset>
+
+            <fieldset>
+                <label for="Email" >Email</label>
+                <input id="Email" type="email" name="email">
+
+                <label for="PNum" >Phone Number</label>
+                <input id="PNum" type="tel" name="Number">
+            </fieldset>
+
+            <fieldset>
+                <label for="PassW" >Password</label>
+                <input id="PassW" type="password" name="Pass" >
+
+                <label for="CPassW" >Confirm Password</label>
+                <input id="CPassW" type="password" name="CPass">
+            </fieldset>
+        </form>
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
+    </div>
 </body>
 </html>
