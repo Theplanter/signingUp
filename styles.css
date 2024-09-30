@@ -7,14 +7,21 @@
 }
 
 body{
+
     display: flex;
     height: 100vh;
     width: 100vh;
 }
+main{
+    display: flex;
+    box-shadow: 11px 14px 7px 2px #888;
+}
 .right{
     display: flex;
     flex-direction: column;
-    
+    padding-top: 14rem;
+    background-color: aqua;
+    min-width: 750px;
 }
 
 .left{
@@ -24,7 +31,7 @@ body{
     background-image: url('images/nate-rayfield-_WR6tUIAJe8-unsplash.jpg');
     background-size: cover;
     height: 100vh;
-      min-width: 430px;
+      min-width: 650px;
   max-height: 100vh;
 }
 .back{
@@ -51,3 +58,21 @@ span{
 #img-Logo{
     width: 80px;
 }
+.sec{
+    display: flex;
+    gap: 45px;
+}
+label{
+    font-size: 12px;
+    opacity: 80%;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+}
+
+
