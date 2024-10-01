@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -11,6 +12,7 @@ body{
     display: flex;
     height: 100vh;
     width: 100vh;
+    margin: 0 14%;
 }
 main{
     display: flex;
@@ -20,10 +22,66 @@ main{
     display: flex;
     flex-direction: column;
     padding-top: 14rem;
-    background-color: aqua;
+    background: linear-gradient(45deg,#00182B 158px, #00162d 600px, #31abd0 122rem);    
     min-width: 750px;
 }
+.info p{
+    color: aliceblue;
+}
+form p:first-child{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+form p span{
+    color: #888;
+    font-size: 18px;
 
+}
+form{
+    background-color: white;
+    box-shadow: 3px 20px 9px 0px #000;
+    padding-bottom: 20px;
+}
+.contain,.info,button,.log{
+    margin-inline: 50px;
+}
+input{
+    padding: 10px;
+    font-size: 1rem;
+    width: 270px;
+    box-shadow: 9px 5px 7px 2px #9E8888;
+}
+
+input:user-invalid{
+border: 2px solid red;}
+.sec{
+    display: flex;
+    gap: 45px;
+    margin-bottom: 15px;
+}
+#submit{
+    padding: 10px 35px;
+  margin-bottom: 25px;
+  margin-top: 12px;
+  background-color: #0121b1;
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 9px 5px 7px 2px #9E8888;
+  transition: all 0.2s ease-in;
+
+}
+#submit:hover{
+padding: 12px 37px;
+background-color: #0160d4;
+box-shadow: 7px 5px 3px 1px #000;
+}
+a{
+    transition: color 0.5s ease;
+    color: blue;
+}
+a:hover{
+    color: #31abd0;
+}
 .left{
 
     display: flex;
@@ -58,12 +116,9 @@ span{
 #img-Logo{
     width: 80px;
 }
-.sec{
-    display: flex;
-    gap: 45px;
-}
+
 label{
-    font-size: 12px;
+    font-size: 17px;
     opacity: 80%;
 }
 p{

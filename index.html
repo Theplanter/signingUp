@@ -25,40 +25,40 @@
             </div>
             <form action="#">
                 <div class="contain">
-                    <p>Let's do this!</p>
+                    <p>Let's do this! <span>Fill in the *</span></p>
                     <div class="sec">
                         <section class="group">
-                            <label for="FName">First Name</label>
-                            <input id="FName" type="text" name="firstN">
+                            <label for="FName">First Name*</label>
+                            <input id="FName" type="text" autofocus name="firstN" required ="">
                         </section>
                         <section class="group">
-                            <label for="LName">Last Name</label>
-                            <input id="LName" type="text" name="lastN">
+                            <label for="LName">Last Name*</label>
+                            <input id="LName" type="text"  name="lastN" required ="">
                         </section>
                     </div>
                     <div class="sec">
                         <section class="group">
-                            <label for="Email">Email</label>
-                            <input id="Email" type="email" name="email">
+                            <label for="Email">Email*</label>
+                            <input id="Email" type="email" name="email" required ="">
                         </section>
                         <section class="group">
                             <label for="PNum">Phone Number</label>
-                            <input id="PNum" type="tel" name="Number">
+                            <input id="PNum" type="tel" name="Number" >
                         </section>
                     </div>
                     <div class="sec">
                         <section class="group">
-                            <label for="PassW">Password</label>
-                            <input id="PassW" type="password" name="Pass">
+                            <label for="PassW">Password*</label>
+                            <input id="PassW" type="password" name="Pass" required>
                         </section>
                         <section class="group">
-                            <label for="CPassW">Confirm Password</label>
-                            <input id="CPassW" type="password" name="CPass">
+                            <label for="CPassW">Confirm Password*</label>
+                            <input id="CPassW" type="password" name="CPass" required>
                         </section>
                     </div>
                 </div>
-                <button type="submit">Create Account</button>
-                <p>Already have an account? <a href="#">Log in</a></p>
+                <button type="submit" id="submit">Create Account</button>
+                <p class="log">Already have an account? <a href="#">Log in</a></p>
             </form>
         </div>
     </main>
